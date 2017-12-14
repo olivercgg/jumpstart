@@ -1,7 +1,7 @@
 /** font-family: 'Open Sans', sans-serif;
 font-family: 'Monoton', cursive; **/
 
-body {
+html {
  font-size: 14px;
  font-family: 'Open Sans';
 }
@@ -34,6 +34,7 @@ body {
 
 .jumbotron .text-container {
   width: 51.3rem;
+  text-align: center;
 }
 
 .jumbotron .text-container h2 {
@@ -63,7 +64,42 @@ body {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
+/** Featured Project **/
+.featured-project h2,
+.projects h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.featured-project ul li {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.featured-project h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/** Projects **/
+
 /** Trouble Section **/
 .trouble {
   text-align: center;
+  background-color: #f3f3f3;
+}
+
+.trouble h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.trouble p {
+  width: 42rem;
+}
+
+.trouble-contents {
+  padding: 5.2rem auto 5.2rem auto;
 }
