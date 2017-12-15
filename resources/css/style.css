@@ -3,7 +3,7 @@ font-family: 'Monoton', cursive; **/
 
 html {
  font-size: 14px;
- font-family: 'Open Sans';
+ font-family: 'Open Sans', sans-serif;
 }
 
 .image-container {
@@ -12,15 +12,26 @@ html {
 
 .image-container img {
   opacity: 0.7;
+  transition: transform 0.5s, opacity 0.5s;
 }
 
+img {
+  width: 100%;
+}
 .relative-wrapper {
   text-align: center;
 }
 
 /** Navigation bar **/
-.navbar-default .navbar-nav .active a:hover {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #399bd1;
+  background-color: inherit;
+}
 
+.nav li {
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 
 /** Jumbotron Section **/
@@ -83,6 +94,9 @@ html {
 }
 
 /** Projects **/
+.projects {
+  margin-bottom: 5.85rem;
+}
 
 /** Trouble Section **/
 .trouble {
@@ -102,5 +116,5 @@ html {
 }
 
 .trouble-contents {
-  padding: 5.2rem auto 5.2rem auto;
+  padding: 5.2rem 0;
 }
