@@ -6,13 +6,18 @@ html {
  font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
 .image-container {
   overflow: hidden;
 }
 
 .image-container img {
   opacity: 0.7;
-  transition: transform 0.5s, opacity 0.5s;
+  transition: transform .5s, opacity .5s;
 }
 
 img {
@@ -81,6 +86,7 @@ img {
   font-size: 1.7rem;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #399bd1;
 }
 
 .featured-project ul li {
@@ -88,14 +94,13 @@ img {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.featured-project h3 {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
 /** Projects **/
 .projects {
   margin-bottom: 5.85rem;
+}
+
+.projects h3 {
+  font-weight: bold;
 }
 
 /** Trouble Section **/
