@@ -26,6 +26,7 @@ html {
 /** Jumbotron Section **/
 .jumbotron {
   text-align: center;
+  padding: 11.85rem 0;
 }
 
 .jumbotron-bike {
@@ -50,6 +51,9 @@ html {
 .jumbotron .btn-primary {
   margin-top: 2.8rem;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  width: 11.4rem;
+  padding: 1.3rem 0;
+  border: 0;
 }
 
 .jumbotron .btn-primary:hover {
