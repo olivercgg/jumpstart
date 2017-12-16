@@ -54,12 +54,22 @@ img {
   background-image: url(../images/jumbotron-bike.jpg);
 }
 
+.jumbotron-beer {
+  background-image: url(../images/jumbotron-beer.jpg);
+}
+.jumbotron-flowers {
+  background-image: url(../images/jumbotron-flowers.jpg);
+}
+.jumbotron-duffel {
+  background-image: url(../images/jumbotron-duffel.jpg);
+}
+
 .jumbotron .text-container {
   width: 51.3rem;
   text-shadow: -1px -1px 0 #000, -1px 0 #000, 1px 1px 0 #000, 1px 0 #000
 }
 
-.jumbotron .text-container h2 {
+.jumbotron .text-container h1 {
   font-family: 'Monoton', sans-serif;
   font-size: 7.1rem;
   color: white;
